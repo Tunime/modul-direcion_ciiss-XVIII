@@ -1,0 +1,20 @@
+.direccion {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 100vh;
+    .direccion_logos img {
+        width: 15em;
+    }
+    .direccion_texto{
+        margin: 3em 0 0 0;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
