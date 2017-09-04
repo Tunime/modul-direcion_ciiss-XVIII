@@ -2,17 +2,30 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   'actividades': {
+    'background': 'url(../img/fondo-articl.png)',
+    'backgroundRepeat': 'no-repeat',
+    'backgroundSize': 'cover',
+    'backgroundAttachment': 'fixed',
     'fontFamily': ''Open Sans', sans-serif',
     'fontSize': [{ 'unit': 'px', 'value': 14 }],
-    'height': [{ 'unit': 'vh', 'value': 100 }],
+    'height': [{ 'unit': 'em', 'value': 30 }],
     'display': 'flex',
     'justifyContent': 'center',
     'alignItems': 'center',
-    'background': '#D2D2D2'
+    '<w777': {
+      'height': [{ 'unit': '%V', 'value': 1 }],
+      'flexDirection': 'column'
+    }
   },
   'actividades article': {
     'width': [{ 'unit': 'em', 'value': 25 }],
-    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }]
+    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }],
+    '<w777': {
+      'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 3 }, { 'unit': 'em', 'value': 2 }]
+    },
+    '<w466': {
+      'width': [{ 'unit': '%H', 'value': 1 }]
+    }
   },
   'actividades article catividades_titulo': {
     'padding': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }]
@@ -26,7 +39,8 @@ export default StyleSheet.create({
     'fontSize': [{ 'unit': 'em', 'value': 2 }]
   },
   'actividades article atividades_contenido p': {
-    'padding': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 3 }, { 'unit': 'px', 'value': 0 }]
+    'padding': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 3 }, { 'unit': 'px', 'value': 0 }],
+    'color': 'white'
   },
   'actividades article a': {
     'margin': [{ 'unit': 'em', 'value': 3 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
