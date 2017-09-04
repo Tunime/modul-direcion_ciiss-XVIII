@@ -7,8 +7,17 @@
   align-items: center;
   font-size: 14px;
   height: 100vh; }
+  @media (max-width: 422px) {
+    .direccion .direccion_logos figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; } }
   .direccion .direccion_logos img {
     width: 15em; }
+  @media (max-width: 422px) {
+    .direccion .direccion_logos img {
+      width: 10em; } }
   .direccion .direccion_texto {
     margin: 3em 0 0 0;
     font-size: 1.2em;
@@ -16,6 +25,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    .direccion .direccion_texto p {
+      text-align: center; }
+  .direccion .direccion_iconos {
+    margin: 2em 0 0 0; }
+    .direccion .direccion_iconos a {
+      margin: 0 0.5em; }
+    .direccion .direccion_iconos img {
+      width: 2.5em; }
+    .direccion .direccion_iconos img:hover {
+      width: 2.8em;
+      transition: width 0.5s; }
 
 * {
   margin: 0;

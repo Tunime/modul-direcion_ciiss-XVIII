@@ -6,15 +6,46 @@
     align-items: center;
     font-size: 14px;
     height: 100vh;
-    .direccion_logos img {
-        width: 15em;
+    .direccion_logos {
+        @media (max-width: 422px) {
+            figure {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+        img {
+            width: 15em;
+        }
+        @media (max-width: 422px) {
+            img {
+                width: 10em;
+            }
+        }
     }
-    .direccion_texto{
+    .direccion_texto {
         margin: 3em 0 0 0;
         font-size: 1.2em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        p {
+            text-align: center;
+        }
+    }
+    .direccion_iconos {
+        margin: 2em 0 0 0;
+        a {
+            margin: 0 0.5em;
+        }
+        img {
+            width: 2.5em;
+        }
+        img:hover {
+            width: 2.8em;
+            transition: width 0.5s;
+        }
     }
 }
