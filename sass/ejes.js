@@ -9,7 +9,13 @@ export default StyleSheet.create({
     'justifyContent': 'center',
     'alignItems': 'center',
     'flexDirection': 'column',
-    'fontSize': [{ 'unit': 'px', 'value': 16 }]
+    'fontSize': [{ 'unit': 'px', 'value': 16 }],
+    '<w991': {
+      'height': [{ 'unit': '%V', 'value': 1 }]
+    }
+  },
+  'tematicos h2': {
+    'margin': [{ 'unit': 'em', 'value': 2 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]
   },
   'tematicos tematicos_title_frio': {
     'color': '#4d4d4d'
@@ -21,14 +27,15 @@ export default StyleSheet.create({
     'display': 'flex',
     'justifyContent': 'center',
     'alignItems': 'center',
-    'margin': [{ 'unit': 'em', 'value': 5 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]
+    'margin': [{ 'unit': 'em', 'value': 5 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
+    'flexWrap': 'wrap'
   },
   'tematicos ul li': {
     'display': 'flex',
     'justifyContent': 'center',
     'alignItems': 'center',
     'flexDirection': 'column',
-    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 2 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 2 }],
+    'margin': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 2 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 2 }],
     'width': [{ 'unit': 'em', 'value': 15 }]
   },
   'tematicos ul li h4': {

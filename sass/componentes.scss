@@ -6,6 +6,9 @@
     align-items: center;
     font-size: 14px;
     height: 100vh;
+    @media (max-width: 422px) {
+        height: 100%;
+    }
     .direccion_logos {
         @media (max-width: 422px) {
             figure {
@@ -17,10 +20,12 @@
         }
         img {
             width: 15em;
+            margin: 0.5em 0.5em;
         }
         @media (max-width: 422px) {
             img {
-                width: 10em;
+                width: 12em;
+                padding: 1em 0;
             }
         }
     }

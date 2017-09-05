@@ -8,12 +8,17 @@ export default StyleSheet.create({
     'justifyContent': 'center',
     'alignItems': 'center',
     'fontSize': [{ 'unit': 'px', 'value': 14 }],
-    'height': [{ 'unit': 'vh', 'value': 100 }]
+    'height': [{ 'unit': 'vh', 'value': 100 }],
+    '<w422': {
+      'height': [{ 'unit': '%V', 'value': 1 }]
+    }
   },
   'direccion direccion_logos img': {
     'width': [{ 'unit': 'em', 'value': 15 }],
+    'margin': [{ 'unit': 'em', 'value': 0.5 }, { 'unit': 'em', 'value': 0.5 }, { 'unit': 'em', 'value': 0.5 }, { 'unit': 'em', 'value': 0.5 }],
     '<w422': {
-      'width': [{ 'unit': 'em', 'value': 10 }]
+      'width': [{ 'unit': 'em', 'value': 12 }],
+      'padding': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }]
     }
   },
   'direccion direccion_texto': {
