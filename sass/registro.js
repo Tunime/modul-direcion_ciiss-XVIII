@@ -85,7 +85,15 @@ export default StyleSheet.create({
   },
   'u-agradecimiento--white': {
     'width': [{ 'unit': 'em', 'value': 40 }],
-    'height': [{ 'unit': 'em', 'value': 15 }]
+    'height': [{ 'unit': 'em', 'value': 15 }],
+    '<w680': {
+      'width': [{ 'unit': 'em', 'value': 30 }],
+      'height': [{ 'unit': 'em', 'value': 15 }]
+    },
+    '<w531': {
+      'width': [{ 'unit': 'em', 'value': 22 }],
+      'height': [{ 'unit': 'em', 'value': 15 }]
+    }
   },
   'u-agradecimiento--white figure': {
     'width': [{ 'unit': 'em', 'value': 15 }]

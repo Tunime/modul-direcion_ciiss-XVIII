@@ -214,6 +214,14 @@ footer {
   .u-agradecimiento--white .linea {
     margin: 0 0 1em 0; }
 
+@media (max-width: 680px) {
+  .u-agradecimiento--white {
+    width: 30em;
+    height: 15em; } }
+@media (max-width: 531px) {
+  .u-agradecimiento--white {
+    width: 22em;
+    height: 15em; } }
 * {
   margin: 0;
   padding: 0; }
