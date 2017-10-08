@@ -201,6 +201,19 @@ footer {
   justify-content: space-around;
   align-items: center; }
 
+.agradecimiento {
+  height: 100vh; }
+
+.u-agradecimiento--white {
+  width: 40em;
+  height: 15em; }
+  .u-agradecimiento--white figure {
+    width: 15em; }
+    .u-agradecimiento--white figure img {
+      width: 100%; }
+  .u-agradecimiento--white .linea {
+    margin: 0 0 1em 0; }
+
 * {
   margin: 0;
   padding: 0; }

@@ -79,3 +79,21 @@ footer {
     justify-content: space-around;
     align-items: center
 }
+
+.agradecimiento {
+    height: 100vh;
+}
+
+.u-agradecimiento--white {
+    figure{
+        width: 15em;
+        img{
+            width: 100%;
+        }
+    }
+    width: 40em;
+    height: 15em;
+    .linea{
+        margin: 0 0 1em 0;
+    }
+}

@@ -79,5 +79,21 @@ export default StyleSheet.create({
     'display': 'flex',
     'justifyContent': 'space-around',
     'alignItems': 'center'
+  },
+  'agradecimiento': {
+    'height': [{ 'unit': 'vh', 'value': 100 }]
+  },
+  'u-agradecimiento--white': {
+    'width': [{ 'unit': 'em', 'value': 40 }],
+    'height': [{ 'unit': 'em', 'value': 15 }]
+  },
+  'u-agradecimiento--white figure': {
+    'width': [{ 'unit': 'em', 'value': 15 }]
+  },
+  'u-agradecimiento--white figure img': {
+    'width': [{ 'unit': '%H', 'value': 1 }]
+  },
+  'u-agradecimiento--white linea': {
+    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'px', 'value': 0 }]
   }
 });
