@@ -136,6 +136,71 @@
         .tematicos ul li div img {
           width: 3.5em; }
 
+/*# comiensa registro */
+.registro {
+  background: #005E77;
+  font-family: 'Open Sans', sans-serif; }
+
+.registro--titulo h2 {
+  color: #01A6CF; }
+.registro--titulo .linea {
+  width: 60px;
+  height: 5px;
+  background: #01A6CF; }
+.registro--titulo span {
+  font-size: 13px; }
+
+.registro--fondo {
+  background-image: url(../img/fondo-circu.png);
+  height: 160vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.registro-white {
+  width: 40em;
+  height: 45em;
+  padding: 1em;
+  background: white;
+  box-shadow: 0 3px 16px 3px rgba(3, 2, 2, 0.64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .registro-white li {
+    padding: 0.8em 0; }
+
+.registro--campos input,
+.registro--campos select {
+  background: #FAFAFA;
+  height: 2em;
+  font-size: 0.9em;
+  padding: 0.2em 0.5em 0.2em 1.5em;
+  width: 22em;
+  border-radius: 0.6em;
+  border: none; }
+.registro--campos select {
+  height: 34.55px;
+  width: 345.58px; }
+.registro--campos .btn-registro {
+  padding: 0.2em 0.5em 0.2em 0.1em; }
+  .registro--campos .btn-registro a {
+    padding: 0.5em 2.5em;
+    background: #01A6CF;
+    border-radius: 10px;
+    color: white; }
+
+footer {
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background: #1E1E1E;
+  color: #FAFAFA;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0; }
