@@ -33,7 +33,22 @@ export default StyleSheet.create({
     'display': 'flex',
     'justifyContent': 'center',
     'alignItems': 'center',
-    'flexDirection': 'column'
+    'flexDirection': 'column',
+    '<w717': {
+      'width': [{ 'unit': 'em', 'value': 30 }],
+      'height': [{ 'unit': 'em', 'value': 45 }],
+      'padding': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }]
+    },
+    '<w543': {
+      'width': [{ 'unit': 'em', 'value': 25 }],
+      'height': [{ 'unit': 'em', 'value': 45 }],
+      'padding': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }]
+    },
+    '<w450': {
+      'width': [{ 'unit': 'em', 'value': 20 }],
+      'height': [{ 'unit': 'em', 'value': 45 }],
+      'padding': [{ 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }, { 'unit': 'em', 'value': 1 }]
+    }
   },
   'registro-white li': {
     'padding': [{ 'unit': 'em', 'value': 0.8 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 0.8 }, { 'unit': 'px', 'value': 0 }]
@@ -80,6 +95,7 @@ export default StyleSheet.create({
     'justifyContent': 'space-around',
     'alignItems': 'center'
   },
+  // # comeinza lo de agradecieminto
   'agradecimiento': {
     'height': [{ 'unit': 'vh', 'value': 100 }]
   },

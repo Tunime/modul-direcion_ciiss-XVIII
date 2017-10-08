@@ -80,6 +80,40 @@
         align-items: center
     }
 
+    @media (max-width: 717px) {
+        .registro-white {
+            width: 30em;
+            height: 45em;
+            padding: 1em;
+        }
+    }
+
+    @media (max-width: 543px) {
+        .registro-white {
+            width: 25em;
+            height: 45em;
+            padding: 1em;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .registro-white {
+            width: 20em;
+            height: 45em;
+            padding: 1em;
+            input,
+            select {
+                height: 2em;
+                width: 20em;
+            }
+            select {
+                height: 34.55px;
+                width: 316.58px;
+            }
+        }
+    }
+    /*# comeinza lo de agradecieminto */
+
     .agradecimiento {
         height: 100vh;
     }
